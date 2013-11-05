@@ -1,0 +1,24 @@
+{
+  "name": "sunset",
+  "homepage": "https://github.com/timfpark/sunset",
+  "repository" : {
+      "type" : "git",
+      "url" : "https://github.com/timfpark/sunset.git"
+  },
+  "author": "Tim Park <timfpark@gmail.com>",
+  "version": "0.1.0",
+  "licenses" : [{
+    "type": "Apache",
+    "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+  }],
+
+  "private": "true",
+
+  "dependencies": {
+      "nitrogen": ">=0.1.100",
+      "suncalc": "*"
+  },
+  "devDependencies": {
+      "mocha": "1.x"
+  }
+}
